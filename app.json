@@ -1,9 +1,10 @@
 {
   "expo": {
-    "name": "eco",
-    "slug": "eco",
+    "name": "reutiliza",
+    "slug": "reutiliza",
+    "scheme": "reutiliza",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -12,9 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.carlosdavi0.reutiliza"
     },
     "android": {
+      "package": "com.carlosdavi0.reutiliza",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -22,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4d58dfe6-6d07-4eaf-b1a4-50e646626d2d"
+      }
+    },
+    "owner": "carlosdavi0"
   }
 }
